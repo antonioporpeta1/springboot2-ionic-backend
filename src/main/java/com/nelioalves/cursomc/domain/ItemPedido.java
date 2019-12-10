@@ -110,6 +110,17 @@ public class ItemPedido implements Serializable {
 		return true;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("ItemPedido [quantidade=");
+		builder.append(quantidade);
+		builder.append(", preco=");
+		builder.append(preco);
+		builder.append("]");
+		return builder.toString();
+	}
+
 	
 	
 }
